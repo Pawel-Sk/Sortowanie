@@ -1,0 +1,7 @@
+Co zrobi³em?
+
+Plan projektu, zapoznanie z niezbêdnymi alogrytmami, stworzenie repozytorium.
+
+Co planuje zrobiæ?
+
+Napisaæ w³aœciw¹ czêœæ programu sortuj¹cego.
