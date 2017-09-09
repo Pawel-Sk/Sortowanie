@@ -59,6 +59,7 @@ merge_sort(tablica, start, srodek);
 merge_sort(tablica, srodek+1, koniec);
 merge(tablica, start, srodek, koniec);
 }
+
 }
 #endif	// MERGESORT_H
 

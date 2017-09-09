@@ -30,7 +30,7 @@ else // gdy i >= j zwracamy j jako punkt podzialu tablicy
 return j;
 }
 }
- 
+
 void quicksort(int tablica[], int p, int r) // sortowanie szybkie
 {
 int q;
