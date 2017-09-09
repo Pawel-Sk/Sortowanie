@@ -1,4 +1,6 @@
 #include<iostream>
+#include<cstdlib>
+#include<ctime>
 #include "quicksort.h"
 #include "mergesort.h"
 using namespace std;
@@ -12,10 +14,11 @@ cout << "Podaj ilosc licz do posortowania: ";
 cin >> ilosc_liczb;
 int *tablica = new int [ilosc_liczb]; // utworzenie dynamicznej tablicy na 'ilosc_liczb' elementow
  
+srand( time( NULL ) );
+
 for (i = 0; i < ilosc_liczb; i++) // wczytywanie liczb do tablicy
 {
-cout << "Podaj liczba: ";
-cin >> tablica[i];
+tablica[i] = rand();
 }
  
 merge_sort(tablica,0,ilosc_liczb-1); // wywolanie funkcji sortujacej

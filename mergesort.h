@@ -40,12 +40,9 @@ k++;
 }
 }
  
-//for (i = 0; i <= koniec-start; i++)
-//tablica[start+i] = tab_pom[i]; 
-// 
-//cout << endl;
-//for (i = start; i <= koniec; i++) // wypisanie posortowanej tablicy
-//cout << "tablica[" << i << "] = " << tablica[i] << endl;
+for (i = 0; i <= koniec-start; i++)
+tablica[start+i] = tab_pom[i]; 
+ 
 }
  
 void merge_sort(int tablica[], int start, int koniec)
