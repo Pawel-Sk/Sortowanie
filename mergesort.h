@@ -1,3 +1,6 @@
+#ifndef MERGESORT_H
+#define MERGESORT_H
+
 #include<iostream>
 using namespace std;
  
@@ -57,3 +60,5 @@ merge_sort(tablica, srodek+1, koniec);
 merge(tablica, start, srodek, koniec);
 }
 }
+#endif	// MERGESORT_H
+

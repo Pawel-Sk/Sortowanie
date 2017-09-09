@@ -1,5 +1,8 @@
 
 
+#ifndef QUICKSORT_H
+#define QUICKSORT_H
+
 #include<iostream>
 
 using namespace std;
@@ -38,3 +41,5 @@ quicksort(tablica, p, q); // wywolujemy rekurencyjnie quicksort dla pierwszej cz
 quicksort(tablica, q+1, r); // wywolujemy rekurencyjnie quicksort dla drugiej czesci tablicy
 }
 }
+#endif	// QUICKSORT_H
+

@@ -3,10 +3,11 @@
 #include<ctime>
 #include "quicksort.h"
 #include "mergesort.h"
+#include "insertion.h"
 using namespace std;
  
 
- 
+
 int main()
 {
 int ilosc_liczb, i;
