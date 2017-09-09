@@ -1,5 +1,6 @@
 #include<iostream>
 #include "quicksort.h"
+#include "mergesort.h"
 using namespace std;
  
 
@@ -17,7 +18,7 @@ cout << "Podaj liczba: ";
 cin >> tablica[i];
 }
  
-quicksort(tablica,0,ilosc_liczb-1); // wywolanie funkcji sortujacej
+merge_sort(tablica,0,ilosc_liczb-1); // wywolanie funkcji sortujacej
  
 for (i = 0; i < ilosc_liczb; i++) // wypisanie posortowanej tablicy
 cout << "tablica[" << i << "] = " << tablica[i] << endl;
