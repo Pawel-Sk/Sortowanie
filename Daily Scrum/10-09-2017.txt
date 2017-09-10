@@ -1,0 +1,3 @@
+Co zrobi³em?
+
+Poprawki w kodzie g³ównym, wiki, testy porgramu.
