@@ -34,21 +34,21 @@ if (wybor == 1)
 	time_t czasStart = clock();
 	insertionsort(tablica,ilosc_liczb);
 	time_t czasStop = clock();
-	cout << "Czas wykonania algorytmu: " << static_cast < double >( czasStop - czasStart ) / CLOCKS_PER_SEC << endl;
+	cout << "Czas wykonania algorytmu: " << static_cast < double >( czasStop - czasStart ) / CLOCKS_PER_SEC << " sekund" << endl;
 }
 else if (wybor == 2)
 {
 	time_t czasStart = clock();
 	quicksort(tablica,0,ilosc_liczb-1);
 	time_t czasStop = clock();
-        cout << "Czas wykonania algorytmu: " << static_cast < double >( czasStop - czasStart ) / CLOCKS_PER_SEC << endl;
+        cout << "Czas wykonania algorytmu: " << static_cast < double >( czasStop - czasStart ) / CLOCKS_PER_SEC << " sekund" << endl;
 }
 else if (wybor == 3)
 {
 	time_t czasStart = clock();
 	merge_sort(tablica,0,ilosc_liczb-1);
 	time_t czasStop = clock();
-        cout << "Czas wykonania algorytmu: " << static_cast < double >( czasStop - czasStart ) / CLOCKS_PER_SEC << endl;
+        cout << "Czas wykonania algorytmu: " << static_cast < double >( czasStop - czasStart ) / CLOCKS_PER_SEC << " sekund" << endl;
 }
 else
 {
