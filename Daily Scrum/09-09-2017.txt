@@ -1,0 +1,7 @@
+Co zrobi³em?
+
+Kod g³ówny programy, implementacja algorytmów sortowania quicksort, mergesort oraz sortowanie przez wstawianie.
+
+Co zamierzam zrobiæ?
+
+Testy programu, dokumnetacja.
